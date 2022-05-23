@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&family=Teko:wght@500&display=swap');
+
+body {
+    background-color: rgb(34, 34, 34);
+    margin: 0;
+}
+
+.price {
+    color: aliceblue;
+    font-family: "Teko";
+    font-size: 64px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+#header {
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    padding-bottom: 0px;
+    margin: auto;
+}
+
+.top-cur-block {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.text {
+    color: aliceblue;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    border: 1px solid #adb5bd;
+    width: 120px;
+    background-color: #83B925;
+    font-size: 24px;
+    border: 3px solid white;
+    border-radius: 6px;
+}
+
+.adapt-quantity {
+    height: 40px;
+    width: 40px;
+    
+}
+
+
+
+.btn {
+    cursor: pointer;
+    width: 66px;
+    height: 40px;
+}
+
+
+#mainlogo {
+    margin-right: 50px;
+    margin-left: 40px;
+}
+
+#main-section {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.adapter, #calc-div, .calc-params-block, #provider-div, #ele-price-div{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+
+
+.adapter-qty, .calc-params-input{
+    height: 50px;
+    border-radius: 12px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 4px solid whitesmoke;
+    height: 50px;
+    width: 48px;
+    padding: 0;
+    border-right: none;
+    font-size: 24px;
+    text-align: center;
+}
+.adapter-qty{
+
+    width: 48px;
+}
+
+
+.adapter-btn, .calc-params-btn {
+    height: 50px;
+    border-radius: 12px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 4px solid whitesmoke;
+    border-left: none;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.adapter-btn{
+    width: 120px;
+    cursor: pointer;
+}
+
+.calc-params-input{
+    width: 179px;
+    font-weight: bold;
+}
+
+.calc-params-btn{
+    width: 80px;
+}
+
+
+
+
+#provider, #algo-selector, #calc-btn {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    overflow-y: auto;
+    background-color: #83B925;
+}
+#provider, #algo-selector, .adapter-btn, .calc-params-btn{
+    background-color: #83B925;  
+}
+
+#provider:hover, #algo-selector:hover {
+    background-color: #71a714;
+}
+
+
+#calc-btn {
+    background-color: #A16BB9;
+}
+#calc-btn:hover {
+    background-color: #925CAC;
+}
+
+
+
+.provider-option, .algo-option {
+    background-color: whitesmoke;
+}
+
+
+
+
+
+#ele-price, #provider, #algo-selector, #calc-btn {
+
+    
+    height: 50px;
+    width: 168px;
+    border: 4px solid whitesmoke;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+/* #algo-selector{
+    margin-top: 0px;
+} */
+
+
+
+#profit-monitor, #left{
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+#left{
+    vertical-align: top;
+    margin-right: 40px;
+}
+#profit-table{
+    color:  antiquewhite;
+    border: 4px solid antiquewhite;
+    border-radius: 32px;
+    font-size: 32px;
+}
+td{padding: 6px}
